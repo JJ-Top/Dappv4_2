@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dapp sencilla </title>
+</head>
+<body>
+
+  <div> Web3  :</div>
+  <div id="numbers"> </div>
+  <div> nodoUrl :</div>
+  <div id="nodourl"> </div>
+  <div> Address :</div>
+  <div id="address"> </div>
+
+  <label > <h1 align="center" bgcolor="blue">Traspaso fondos entre cuentas de MetaMask</h1></label>
+  <p></p>
+
+  <button id="connect" >Conectar MetaMask</button>
+
+  <div style="display: none" id="content">
+    <h1>Cuenta MetaMask conectada: </h1>
+    <span id="account"></span>
+    <form id="send" style="margin-top: 10px;">
+      <p></p>
+      <p></p>
+      <label>Dirección Destino : </label>
+      <input id="recipient" type="text" placeholder="Recipient">      
+      <p></p>
+      <label>Cantidad representada en weis : </label>
+      <input id="amount" type="number" placeholder="Amount">
+      <p></p>
+      <button>Enviar</button>
+
+
+      
+      
+
+
+
+
+
+
+    </form>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
